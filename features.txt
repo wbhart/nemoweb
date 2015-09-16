@@ -15,7 +15,7 @@ and wrappers of C/C++ libraries. Below we describe some of the features.</p>
 
 <h3>Nemo wrappers</h3>
 
-<h4>flint</h4>
+<h4>Flint</h4>
 <ul>
 <li>fmpz - Integers</li>
 <li>fmpq - Rationals</li>
@@ -38,12 +38,12 @@ and wrappers of C/C++ libraries. Below we describe some of the features.</p>
 <li>fq_nmod_series - power series over finite fields for small characteristic</li>
 </ul>
 
-<h4>Antic wrappers</h4>
+<h4>Antic</h4>
 <ul>
 <li>nf_elem - number fields</li>
 </ul>
 
-<h4>Pari wrappers</h4>
+<h4>Pari</h4>
 <ul>
 <li>pari_maximal_order_elems - maximal orders of number fields</li>
 <li>PariIdeal - ideals of maximal orders of number fields</ul>
