@@ -45,7 +45,7 @@ algebra package, <tt>http://nemocas.org</tt>.
 </ul>
 
 <pre>
-@misc{flint,
+@misc{nemo,
     author = {C. Fieker, W. Hart, T. Hofmann, F. Johansson},
     title = {Nemo},
     year = {2015},
