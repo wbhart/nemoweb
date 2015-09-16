@@ -7,7 +7,7 @@
 <pre>git clone git://github.com/wbhart/nemo.jl.git</pre> 
  
 <p>If you want to browse the repository online, or fork it on GitHub, it can be accessed here:</p> 
-<a href="https://github.com/wbhart/flint2">https://github.com/wbhart/nemo</a> 
+<a href="https://github.com/wbhart/nemo">https://github.com/wbhart/nemo</a> 
  
 <p>The current development branch within the repository is "master".</p> 
 
