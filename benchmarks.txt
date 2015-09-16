@@ -19,7 +19,7 @@ of the dense, univariate polynomial arithmetic in Nemo.</p>
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>     <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>132s</td>             <td>120s</td>               <td>233s</td>            <td>51s</td></tr>
+<tr><td>132s</td>             <td>156s</td>               <td>233s</td>            <td>51s</td></tr>
 </table>
 
 </div>
