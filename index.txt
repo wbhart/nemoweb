@@ -1,10 +1,9 @@
 <h2>Overview</h2>
 
 <p>Nemo is a computer algebra package for the Julia programming language, maintained by
-<a href="mailto:goodwillhart {at_thingy} googlemail dot com">William Hart</a>.</p>
-
-<p>Nemo is written by William Hart, Tommy Hofmann, Claus Fieker and Fredrik Johansson. For
-a full list of contributors, see the Authors and Credits page above.</p>
+<a href="mailto:goodwillhart {at_thingy} googlemail dot com">William Hart</a> with code
+by William Hart, Tommy Hofmann, Claus Fieker, Fredrik Johansson and other
+<a href="http://nemocas.org/authors.html">contributors</a>.</p>
 
 <p>The Nemo code written in Julia is licensed under the BSD license and it makes use of GPL and
 LGPL C/C++ libraries such as <a href="http://flintlib.org/">Flint</a>,
@@ -28,5 +27,5 @@ LGPL C/C++ libraries such as <a href="http://flintlib.org/">Flint</a>,
 <p>A Julia package for algebraic number theory, called <a href="https://github.com/thofma/hecke">Hecke</a>
 is also being developed on top of Nemo by Tommy Hofmann and Claus Fieker.</p>
 
-<p>Nemo is written in the <a href="http://julialang.org>Julia</a> programming language and runs on many
+<p>Nemo is written in the <a href="http://julialang.org">Julia</a> programming language and runs on many
 platforms (including Linux, Mac OS X, Windows and BSD).</p>
