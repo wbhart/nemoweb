@@ -1,4 +1,4 @@
-<h2>Links and references</h2>
+<h2>Links and references to Nemo</h2>
 
 <h3>Software using Nemo</h3>
 
@@ -17,9 +17,12 @@ arithmetic including Hermite normal form.</li>
 
 </ul>
 
-<h3>Mathematics, algorithms and implementation</h3>
+<h2>Credits</h2>
 
-<p>The following list is incomplete.</p>
+<h3>Mathematics, algorithms and implementations</h3>
+
+<p>Many resources have been invaluable to us. The following is an incomplete list of papers,
+algorithms, implementations, websites, etc. that we credit.</p>
 
 <ul>
 
