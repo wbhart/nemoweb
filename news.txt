@@ -1,0 +1,7 @@
+<h2>News</h2>
+
+<p>21-Sept-2015: Nemo-0.3 is released!</p>
+
+<h3>Past news and events</h3>
+
+<p>Nothing yet.</p>

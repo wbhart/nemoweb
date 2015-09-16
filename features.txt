@@ -1,0 +1,56 @@
+<h2>Features</h2>
+
+<p>Nemo is a Julia package which contains implementations of generic algorithms
+and wrappers of C/C++ libraries. Below we describe some of the features.</p>
+
+<h3>Nemo generics</h3>
+
+<ul>
+<li>Power series</li>
+<li>Polynomials</li>
+<li>Residue rings</li>
+<li>Matrices</li>
+<li>Fraction fields</li>
+</ul>
+
+<h3>Nemo wrappers</h3>
+
+<h4>flint</h4>
+<ul>
+<li>fmpz - Integers</li>
+<li>fmpq - Rationals</li>
+<li>padic - Padics</li>
+<li>fmpz_mat - matrices over the integers</li>
+<li>nmod_mat - matrices over Z/nZ for small n</li>
+<li>fmpz_poly - polynomials over the integers</li>
+<li>fmpq_poly - polynomials over the rationals</li>
+<li>nmod_poly - polynomials over Z/nZ for small n</li>
+<li>fmpz_mod_poly - polynomials over Z/nZ for large n</li>
+<li>fmpz_series - power series over the integers</li>
+<li>fmpq_series - power series over the rationals</li>
+<li>nmod_series - power series over Z/nZ for small n</li>
+<li>fmpz_mod_series - power series over Z/nZ for small n</li>
+<li>fq - finite fields for multiprecision characteristic</li>
+<li>fq_nmod - finite fields for small characteristic</li>
+<li>fq_poly - polynomials over finite fields for multiprecision characteristic</li>
+<li>fq_nmod_poly - polynomials over finite fields for small characteristic</li>
+<li>fq_series - power series over finite fields for multiprecision characteristic</li>
+<li>fq_nmod_series - power series over finite fields for small characteristic</li>
+</ul>
+
+<h4>Antic wrappers</h4>
+<ul>
+<li>nf_elem - number fields</li>
+</ul>
+
+<h4>Pari wrappers</h4>
+<ul>
+<li>pari_maximal_order_elems - maximal orders of number fields</li>
+<li>PariIdeal - ideals of maximal orders of number fields</ul>
+
+<h3>Libraries that use Nemo</h3>
+
+<h4>Hecke</h4>
+
+<p>Hecke provides maximal orders, class groups, sparse linear algebra and
+various other things related to algebraic number theory.</p>

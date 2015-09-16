@@ -1,0 +1,58 @@
+<h2>Authors and credits</h2>
+
+<h3>Authors</h3>
+
+<p>Nemo has been developed since 2014 by a number of people. Initially
+the library was started by William Hart, Claus Fieker, Fredrik Johansson
+and Tommy Hofmann.</p>
+
+<p>The authors of Nemo to date:</p>
+
+<ul>
+
+<li>William Hart -- maintainer, general infrastructure, Flint wrapper,
+Pari wrapper, initial generic modules and overall design (supported by
+DFG Priority programme SPP1489)</li>
+
+<li>Tommy Hofmann -- fq_poly, fq_nmod_poly, nmod_mat and nmod_poly
+modules, plus numerous (also one of the main authors of Hecke)
+patches</li>
+
+<li>Claus Fieker -- numerous patches to build system, polynomial,
+linear algebra and number fields code (also one of the main authors of
+Hecke and supervisor of student projects using Nemo)
+</li>
+
+<li>Fredrik Johansson -- polynomial truncation and mullow, Chebyshev
+polynomials and exp for power series</li>
+
+<li>Oleksandr Motsak -- Initial Singular wrapper</li>
+</ul>
+
+<h3>Citing Nemo</h3>
+
+<p>If your research depends on computations done with Nemo,
+please consider giving us a formal citation.</p>
+
+<p>At this stage, please cite the software itself
+(optionally a specific version of Nemo),
+for example using the following format:</p>
+
+<ul>
+<li>C. Fieker, W. Hart, T. Hofmann, et. al. the Nemo computer
+algebra package, <tt>http://nemocas.org</tt>.
+</li>
+</ul>
+
+<pre>
+@misc{flint,
+    author = {C. Fieker, W. Hart and T. Hofmann},
+    title = {Nemo},
+    year = {2015},
+    note = {Version 0.3, \url{http://nemocas.org}}
+}
+</pre>
+
+<p>If you depend on a specific algorithm, please also consider
+citing the paper where that algorithm is described (if available).</p>
+

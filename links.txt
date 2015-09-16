@@ -1,0 +1,32 @@
+<h2>Links and references</h2>
+
+<h3>Software using Nemo</h3>
+
+<ul>
+
+<li><a href="https://github.com/thofma/hecke">Hecke</a> uses Nemo for number fields and basic
+arithmetic including Hermite normal form.</li>
+
+</ul>
+
+<h3>References to Nemo in the literature and online</h3>
+
+<ul>
+
+<li>None yet.</li>
+
+</ul>
+
+<h3>Mathematics, algorithms and implementation</h3>
+
+<p>The following list is incomplete.</p>
+
+<ul>
+
+<li><a href="http://arxiv.org/abs/1411.1607">Julia: A fresh approach to numerical computing</a>, Jeff
+Bezanson, Alan Edelman, Stefan Karpinski, Viral B. Shah</li>
+
+<li>Computational Algebraic Number Theory, Henri Cohen</li> 
+
+</ul> 
+

@@ -1,0 +1,44 @@
+<h2>Development</h2>
+
+<h3>Source (git repository)</h3>
+
+<p>You can get a clone of the git development repo with:</p> 
+
+<pre>git clone git://github.com/wbhart/nemo.jl.git</pre> 
+ 
+<p>If you want to browse the repository online, or fork it on GitHub, it can be accessed here:</p> 
+<a href="https://github.com/wbhart/flint2">https://github.com/wbhart/nemo</a> 
+ 
+<p>The current development branch within the repository is "master".</p> 
+
+<h3>Mailing list</h3>
+
+<p>You are welcome to come and join the community of volunteers at our Google development
+group:</p> 
+<a href="http://groups.google.com/group/nemo-devel">nemo-devel Google Group</a>
+
+<h3>Development ideas</h3>
+
+<p>Our GitHub issue tracker: 
+<a href="https://github.com/wbhart/nemo.jl/issues">https://github.com/wbhart/nemo.jl/issues</a></p>
+
+<p>Here is a list of ideas for development projects that would be highly valuable to a large
+number of users. Some of these could make good student projects (or in some cases, research projects).
+</p>
+
+<ul>
+<li>Implement generic Pusiseux series with automatic inflation/deflation</li>
+<li>Add the capped absolute model of power series</li>
+<li>Wrap the <a href="http://fredrikj.net/arb/">Arb</a> library (it is already built as part of
+the Nemo build process)</li>
+<li>Implement generic Hermite Normal Form</li>
+<li>Interface with Gap or wrap libgap</li>
+</ul>
+
+<p>
+A longer list of (mostly minor) issues to work on can be found in the
+<a href="https://github.com/wbhart/nemo.jl/blob/master/todo.txt">todo.txt</a> file.
+If you are interested in contributing to Nemo in any way,
+or even just want to request a feature,
+don't hesitate to leave a message on the mailing list!</p>
+
