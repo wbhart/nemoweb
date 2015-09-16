@@ -3,6 +3,9 @@
 <p>Nemo is a computer algebra package for the Julia programming language, maintained by
 <a href="mailto:goodwillhart {at_thingy} googlemail dot com">William Hart</a>.</p>
 
+<p>Nemo is written by William Hart, Tommy Hofmann, Claus Fieker and Fredrik Johansson. For
+a full list of contributors, see the Authors and Credits page above.</p>
+
 <p>The Nemo code written in Julia is licensed under the BSD license and it makes use of GPL and
 LGPL C/C++ libraries such as <a href="http://flintlib.org/">Flint</a>,
 <a href=https://github.com/wbhart/antic>Antic</a>,
