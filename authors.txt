@@ -39,14 +39,14 @@ please consider giving us a formal citation.</p>
 for example using the following format:</p>
 
 <ul>
-<li>C. Fieker, W. Hart, T. Hofmann, et. al. the Nemo computer
+<li>C. Fieker, W. Hart, T. Hofmann, F. Johansson et. al. the Nemo computer
 algebra package, <tt>http://nemocas.org</tt>.
 </li>
 </ul>
 
 <pre>
 @misc{flint,
-    author = {C. Fieker, W. Hart and T. Hofmann},
+    author = {C. Fieker, W. Hart, T. Hofmann, F. Johansson},
     title = {Nemo},
     year = {2015},
     note = {Version 0.3, \url{http://nemocas.org}}
