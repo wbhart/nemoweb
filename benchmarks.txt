@@ -7,8 +7,8 @@ artificial benchmarks.</p>
 
 <p>Compute f = 1 + x + y + z + t in Z[x, y, z, t]; p = f^30; and time q = p*(p + 1).</p>
 
-<p>This benchmark is usually done with sparse multivariate polynomial arithmetic. We use here
-for dense univariate polynomial arithmetic.</p>
+<p>This benchmark is usually done with sparse multivariate polynomial arithmetic. We use it
+here for dense univariate polynomial arithmetic.</p>
 
 <p>Note: this is not fair to other packages that implement sparse polynomial arithmetic,
 as they could complete this benchmark faster if we used their sparse arithmetic. But that
