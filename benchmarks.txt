@@ -5,7 +5,11 @@ artificial benchmarks.</p>
 
 <h3>Fateman benchmark</h3>
 
-<p>Compute f = 1 + x + y + z + t in Z[x, y, z, t]; p = f^30; and time q = p*(p + 1).</p>
+<ul>
+<li>f = 1 + x + y + z + t</li>
+<li>p = f^30</li>
+<li>time q = p*(p + 1)</li>
+</ul>
 
 <p>This benchmark is usually done with sparse multivariate polynomial arithmetic. We use it
 here for dense univariate polynomial arithmetic.</p>
@@ -13,13 +17,98 @@ here for dense univariate polynomial arithmetic.</p>
 <p>Note: this is not fair to other packages that implement sparse polynomial arithmetic,
 as they could complete this benchmark faster if we used their sparse arithmetic. But that
 would not be a very meaningful benchmark if the aim is to measure the relative performance
-of the dense, univariate polynomial arithmetic in Nemo.</p>
+of the dense, univariate polynomial arithmetic in Nemo. On the other hand, Pari/GP uses a
+sparse-recursive representation.</p>
 
 <div align="center">
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>     <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
 <tr><td>132s</td>             <td>156s</td>               <td>233s</td>            <td>44s</td></tr>
+</table>
+
+</div>
+
+<h3>Pearce benchmark</h3>
+
+<ul>
+<li>f = (x + y + 2z^2 + 3t^3 + 5u^5 + 1)^16</li>
+<li>g = (u + t + 2z^2 + 3y^3 + 5x^5 + 1)^16</li>
+<li>time q = f*g</li>
+</ul>
+
+<p>The same note regarding sparse/dense arithmetic applies as for the Fateman benchmark.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>     <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>2900s</td>             <td>425s</td>               <td>742s</td>            <td>148s</td></tr>
+</table>
+
+</div>
+
+<h3>Resultant benchmark</h3>
+
+<ul>
+<li>R<x> = GF(17^11)</li>
+<li>S = R[y]</li>
+<li>T = S/(y^3 + 3x*y + 1)</li>
+<li>U = T[z]</li>
+<li>f = T(3y^2 + y + x)*z^2 + T((x + 2)*y^2 + x + 1)*z + T(4x*y + 3)</li>
+<li>g = T(7y^2 - y + 2x + 7)*z^2 + T(3y^2 + 4x + 1)*z + T((2x + 1)*y + 1)</li>
+<li>s = f^12</li>
+<li>t = (s + g)^12</li>
+<li>time r = resultant(s, t)</li>
+</ul>
+
+<p>This benchmark is designed to test generics and computation of the resultant.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.8</th>    <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td> 179907s</td>                 <td>82s</td>            <td>2s</td></tr>
+</table>
+
+</div>
+
+<h3>Bernoulli polynomials</h3>
+
+<ul>
+<li>R = QQ[x]</li>
+<li>S = R[[t]]</li>
+<li>u = t + O(t^1000)</li>
+<li>time r = (u*exp(x*u))/(exp(u)-1))</li>
+</ul>
+
+<p>This benchmark is designed to test generic power series.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>161s</td>              <td>235s</td>              <td>4223s</td>            <td>65s</td></tr>
+</table>
+
+</div>
+
+<h3>Polynomials over number fields</h3>
+
+<ul>
+<li>R,x = CyclotomicField(20)</li>
+<li>S = R[y]</li>
+<li>f = (3x^7 + x^4 - 3x + 1)*y^3 + (2x^6-x^5+4x^4-x^3+x^2-1)*y +(-3x^7+2x^6-x^5+3x^3-2x^2+x)</li>
+<li>time r = f^300</li>
+</ul>
+
+<p>This benchmark is designed to test dense polynomials over number fields.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>7s</td>              <td>0.2s</td>              <td>0.7s</td>            <td>0.8s</td></tr>
 </table>
 
 </div>

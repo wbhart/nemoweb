@@ -33,6 +33,7 @@ number of users. Some of these could make good student projects (or in some case
 the Nemo build process)</li>
 <li>Implement generic Hermite Normal Form</li>
 <li>Interface with Gap or wrap libgap</li>
+<li>Implement symbolic expressions</li>
 </ul>
 
 <p>
