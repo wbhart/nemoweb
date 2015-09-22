@@ -11,15 +11,7 @@ artificial benchmarks.</p>
 <li>time q = p*(p + 1)</li>
 </ul>
 
-<p>This benchmark is usually done with sparse multivariate polynomial arithmetic. We use it
-here for dense univariate polynomial arithmetic.</p>
-
-<p>Note: this is not fair to other packages that implement sparse polynomial arithmetic,
-as they could complete this benchmark faster if we used their sparse arithmetic. But that
-would not be a very meaningful benchmark if the aim is to measure the relative performance
-of the dense, univariate polynomial arithmetic in Nemo. On the other hand, Pari/GP uses a
-sparse-recursive representation.</p>
-
+<p>This benchmark tests generic polynomial arithmetic.</p>
 <div align="center">
 
 <table class="benchmark">
@@ -37,7 +29,14 @@ sparse-recursive representation.</p>
 <li>time q = f*g</li>
 </ul>
 
-<p>The same note regarding sparse/dense arithmetic applies as for the Fateman benchmark.</p>
+<p>This benchmark is usually done with sparse multivariate polynomial arithmetic. We use it
+here for dense univariate polynomial arithmetic.</p>
+
+<p>Note: this is not fair to other packages that implement sparse polynomial arithmetic,
+as they could complete this benchmark faster if we used their sparse arithmetic. But that
+would not be a very meaningful benchmark if the aim is to measure the relative performance
+of the dense, univariate polynomial arithmetic in Nemo. On the other hand, Pari/GP uses a
+sparse-recursive representation.</p>
 
 <div align="center">
 
