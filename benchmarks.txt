@@ -42,7 +42,7 @@ sparse-recursive representation.</p>
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>     <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>2900s</td>             <td>425s</td>               <td>742s</td>            <td>148s</td></tr>
+<tr><td>2900s</td>             <td>798s</td>               <td>647s</td>            <td>167s</td></tr>
 </table>
 
 </div>
@@ -107,7 +107,7 @@ sparse-recursive representation.</p>
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>7s</td>              <td>0.2s</td>              <td>0.7s</td>            <td>0.8s</td></tr>
+<tr><td>6.92s</td>              <td>0.21s</td>              <td>0.70s</td>            <td>0.20s</td></tr>
 </table>
 
 </div>
