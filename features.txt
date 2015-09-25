@@ -46,7 +46,14 @@ and wrappers of C/C++ libraries. Below we describe some of the features.</p>
 <h4>Pari</h4>
 <ul>
 <li>pari_maximal_order_elems - maximal orders of number fields</li>
-<li>PariIdeal - ideals of maximal orders of number fields</ul>
+<li>PariIdeal - ideals of maximal orders of number fields</li>
+</ul>
+
+<h4>Arb</h4>
+<ul>
+<li>arb - arbitrary precision real balls</li>
+<li>acb - arbitrary precision complex balls</li>
+</ul>
 
 <h3>Libraries that use Nemo</h3>
 

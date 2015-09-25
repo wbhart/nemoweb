@@ -22,6 +22,7 @@ LGPL C/C++ libraries such as <a href="http://flintlib.org/">Flint</a>,
 <li>Number field arithmetic</li>
 <li>Maximal orders of number fields</li>
 <li>Arithmetic of ideals in maximal orders</li>
+<li>Arbitrary precision real and complex balls</li>
 <li>Generic polynomials, power series, fraction fields, residue rings and matrices</li>
 </ul>
 
