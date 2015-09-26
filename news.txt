@@ -1,5 +1,7 @@
 <h2>News</h2>
 
+<p>2015-09-26: Nemo-0.3.1 is released. This fixes some build issues on OSX and fixes some bugs on 32 bit machines.</p>
+
 <p>2015-09-25: Nemo-0.3 is released!</p>
 
 <p>2015-09-24: Nemo presented at the German Mathematical Society: here are my <a href="Nemo-talk.pdf">slides</a>.</p>

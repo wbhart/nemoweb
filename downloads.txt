@@ -2,7 +2,7 @@
 
 <p>Nemo:</p>
 <ul> 
-<li>2015-09-25 <b><a href="https://github.com/wbhart/Nemo.jl">Nemo-0.3</a></b>, 
+<li>2015-09-26 <b><a href="https://github.com/wbhart/Nemo.jl">Nemo-0.3.1</a></b>, 
 documentation: <b><a href="nemo-0.3.pdf">nemo-0.3.pdf</a></b> (Nemo-0.3)</li>
 </ul> 
 
