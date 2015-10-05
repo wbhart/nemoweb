@@ -31,5 +31,11 @@ Bezanson, Alan Edelman, Stefan Karpinski, Viral B. Shah</li>
 
 <li>Computational Algebraic Number Theory, Henri Cohen</li> 
 
+<li><a href="http://www.inf.fu-berlin.de/groups/ag-ti/people/rote/Papers/pdf/Division-free+algorithms.pdf">Division free algorithms for the determinant and the Pfaffian: Algebraic and combinatorial approaches</a>, Gunter Rote.</li>
+
+<li><a href="http://arxiv.org/pdf/math/0201315v1.pdf">Berkowitz's algorithm and clow sequences</a>, Michael Soltys</li>
+
+<li><a href="http://www4.ncsu.edu/~kaltofen/bibliography/92/Ka92_issac.pdf">On computing determinants of matrices without divisions</a>, Erich Kaltofen</li>
+
 </ul> 
 

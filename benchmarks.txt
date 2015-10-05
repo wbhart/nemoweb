@@ -96,7 +96,7 @@ sparse-recursive representation (similar to recursive-dense, but with dedicated 
 <h3>Polynomials over number fields</h3>
 
 <ul>
-<li>R,x = CyclotomicField(20)</li>
+<li>R, x = CyclotomicField(20)</li>
 <li>S = R[y]</li>
 <li>f = (3x^7 + x^4 - 3x + 1)*y^3 + (2x^6-x^5+4x^4-x^3+x^2-1)*y +(-3x^7+2x^6-x^5+3x^3-2x^2+x)</li>
 <li>time r = f^300</li>
@@ -108,7 +108,34 @@ sparse-recursive representation (similar to recursive-dense, but with dedicated 
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>6.92s</td>              <td>0.21s</td>              <td>0.70s</td>            <td>0.20s</td></tr>
+<tr><td>6.92s</td>              <td>0.21s</td>              <td>0.70s</td>            <td>0.13s</td></tr>
+</table>
+
+</div>
+
+<h3>Determinant over a commutative ring</h3>
+
+<ul>
+<li>n = 2003*1009
+<li>R = (Z/nZ)[x]</li>
+<li>M is an 80x80 matrix with entries in R of random degree of at most 5 and
+coefficients in the range [-100, 100] modulo n</li>
+<li>time d = determinant(M)</li>
+</ul>
+
+<p>This benchmark is designed to test determinant over a generic commutative
+ring. Note Pari cheats here and does divisions, which will occasionally cause
+it to fail on such examples.<p>
+
+<p>Magma exhausts the memory on the machine after some hours. Timings indicate
+it uses an exponential algorithm which would take > 42369865294301626368s were
+it given infinite memory.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>43.5s</td>              <td>456s</td>              <td>-</td>            <td>35s</td></tr>
 </table>
 
 </div>
