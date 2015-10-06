@@ -62,13 +62,13 @@ sparse-recursive representation (similar to recursive-dense, but with dedicated 
 <li>time r = resultant(s, t)</li>
 </ul>
 
-<p>This benchmark is designed to test generics and computation of the resultant.</p>
+<p>This benchmark is designed to test generics, division and computation of the resultant.</p>
 
 <div align="center">
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th>    <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td> 179907s</td>                 <td>82s</td>            <td>2s</td></tr>
+<tr><td> 179907s</td>                 <td>82s</td>            <td>0.17s</td></tr>
 </table>
 
 </div>
