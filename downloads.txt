@@ -13,3 +13,10 @@ documentation: <b><a href="nemo-0.3.pdf">nemo-0.3.pdf</a></b> (Nemo-0.3)</li>
 <li>julia> Pkg.build("Nemo")</li>
 <li>julia> using Nemo</li>
 </ul> 
+
+<p>To run the Nemo test suite:</p>
+<ul>
+<li>julia> using Nemo</li>
+<li>julia> Nemo.Test.test_all()</li>
+</ul>
+
