@@ -7,6 +7,8 @@
 <li><a href="https://github.com/thofma/hecke">Hecke</a> uses Nemo for number fields and basic
 arithmetic including Hermite normal form.</li>
 
+<li><a href="http://cloud.sagemath.com/">SageMathCloud</a> supports Nemo in Jupyter notebooks with the Julia kernel.</li>
+
 </ul>
 
 <h3>References to Nemo in the literature and online</h3>

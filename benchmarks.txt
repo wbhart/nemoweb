@@ -115,7 +115,7 @@ sparse-recursive representation (similar to recursive-dense, but with dedicated 
 <h3>Determinant over a commutative ring</h3>
 
 <ul>
-<li>n = 2003*1009
+<li>n = 2003*1009</li>
 <li>R = (Z/nZ)[x]</li>
 <li>M is an 80x80 matrix with entries in R of random degree of at most 5 and
 coefficients in the range [-100, 100] modulo n</li>
@@ -135,6 +135,26 @@ it given infinite memory.</p>
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
 <tr><td>43.5s</td>              <td>456s</td>              <td>-</td>            <td>35s</td></tr>
+</table>
+
+</div>
+
+<h3>Determinant over a field</h3>
+
+<ul>
+<li>K, a = NumberField(x^3 + 3x + 1)</li>
+<li>M is an 80x80 matrix with random entries in K of the form c_0 + c_1*a + c_2*a^2 with c_i in the range [-100, 100]</li>
+<li>time d = determinant(M)</li>
+</ul>
+
+<p>This benchmark is designed to test determinant over a field where there is
+coefficient blowup.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>5893s</td>              <td>21.9s</td>              <td>5.3s</td>            <td>2.4s</td></tr>
 </table>
 
 </div>
