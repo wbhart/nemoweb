@@ -11,7 +11,7 @@ artificial benchmarks.</p>
 <li>time q = p*(p + 1)</li>
 </ul>
 
-<p>This benchmark tests generic polynomial arithmetic.</p>
+<p>This benchmark tests generic polynomial arithmetic. Note that we don't have a dedicated multivariate polynomial module in Nemo yet, so this and the next benchmark are done with nested univariate polynomial rings. Where possible we do the same thing in the other systems we time (Pari/GP is an exception).</p>
 <div align="center">
 
 <table class="benchmark">
@@ -30,8 +30,7 @@ artificial benchmarks.</p>
 </ul>
 
 <p>This benchmark is usually done with sparse multivariate polynomial arithmetic. We use it
-here with our recursive dense polynomial arithmetic (there is no dedicated
-multivariate polynomial type or sparse polynomial representation in Nemo yet).</p>
+here with our recursive dense polynomial arithmetic (there is no sparse polynomial representation in Nemo yet).</p>
 
 <p>Note: this is not fair to other packages that implement sparse multivariate polynomial arithmetic,
 as they could complete this benchmark faster if we used their sparse arithmetic. But that
