@@ -39,5 +39,9 @@ Bezanson, Alan Edelman, Stefan Karpinski, Viral B. Shah</li>
 
 <li><a href="http://www4.ncsu.edu/~kaltofen/bibliography/92/Ka92_issac.pdf">On computing determinants of matrices without divisions</a>, Erich Kaltofen</li>
 
+<li><a href="https://hal.archives-ouvertes.fr/hal-00678543/document">Generalized fraction-free LU factorization for singular systems with kernel extraction</a>, David Dureisseix</li>
+
+<li><a href="file:///C:/Users/User/Downloads/ADA313755.pdf">A simplified fraction-free integer Gauss elimination algorithm</a>, Peter Turner</li>
+
 </ul> 
 
