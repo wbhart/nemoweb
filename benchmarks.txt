@@ -134,7 +134,7 @@ it given infinite memory.</p>
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>43.5s</td>              <td>456s</td>              <td>-</td>            <td>35s</td></tr>
+<tr><td>43.5s</td>              <td>456s</td>              <td>-</td>            <td>7.5s</td></tr>
 </table>
 
 </div>
@@ -158,4 +158,47 @@ coefficient blowup.</p>
 </table>
 
 </div>
+
+<h3>Determinant of a matrix over a polynomial ring</h3>
+
+<ul>
+<li>M is an 40x40 matrix with random entries in ZZ[x] of the form c_0 + c_1*x + c_2*x^2 with c_i in the range [-20, 20]</li>
+<li>time d = determinant(M)</li>
+</ul>
+
+<p>This benchmark is designed to test determinant over a polynomial ring over an integral domain.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>6.3s</td>              <td>1.3s</td>              <td>3.2s</td>            <td>0.24s</td></tr>
+</table>
+
+</div>
+
+<h3>Linear solving over a polynomial ring</h3>
+
+<ul>
+<li>M is an 20x20 matrix with random entries in ZZ[x][y] that are quadratic polynomials in y with coefficients of the form c_0 + c_1*x + c_2*x^2 with c_i in the range [-20, 20], and b is a 20x1 matrix over the same ring</li>
+<li>time x, d = solve(M, b)</li>
+</ul>
+
+<p>The computation finds a 20x1 matrix x over ZZ[x][y] and a denominator d in ZZ[x][y] such that Ax = db.</p>
+
+<p>This benchmark is designed to test linear solving over a generic polynomial ring.</p>
+
+<p>Note that Sage uses a very large amount of memory and takes a long time, since it doesn't reduce the bivariate rational functions that result, at any stage. On the other hand, we are forcing Sage to work in iterated univariate polynomial rings rather than a true bivariate polynomial ring, which may explain the slowdown and memory use.</p>
+
+<p>Magma requires the computation to be performed over the fraction field.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>> 60000s</td>              <td>> 32000s</td>              <td>90s</td>            <td>7s</td></tr>
+</table>
+
+</div>
+
 
