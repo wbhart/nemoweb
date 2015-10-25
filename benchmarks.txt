@@ -66,8 +66,8 @@ sparse-recursive representation (similar to recursive-dense, but with dedicated 
 <div align="center">
 
 <table class="benchmark">
-<tr><th>SageMath 6.8</th>    <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td> 179907s</td>                 <td>82s</td>            <td>0.17s</td></tr>
+<tr><th>SageMath 6.8</th>    <th>Pari/GP 2.7.4</th>    <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td> 179907s</td>              <td>N/A</td>        <td>82s</td>            <td>0.2s</td></tr>
 </table>
 
 </div>
@@ -188,7 +188,7 @@ coefficient blowup.</p>
 
 <p>This benchmark is designed to test linear solving over a generic polynomial ring.</p>
 
-<p>Note that Sage uses a very large amount of memory and takes a long time, since it doesn't reduce the bivariate rational functions that result, at any stage. On the other hand, we are forcing Sage to work in iterated univariate polynomial rings rather than a true bivariate polynomial ring, which may explain the slowdown and memory use.</p>
+<p>SageMath exhausted the memory on the machine and didn't complete, possibly because it doesn't reduce the bivariate rational functions that result, at any stage. On the other hand, we were forcing SageMath to work in iterated univariate polynomial rings rather than a true bivariate polynomial ring, which may explain the slowdown and memory use.</p>
 
 <p>Magma requires the computation to be performed over the fraction field.</p>
 
@@ -196,9 +196,8 @@ coefficient blowup.</p>
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>> 60000s</td>              <td>> 32000s</td>              <td>90s</td>            <td>7s</td></tr>
+<tr><td>> 100000s</td>              <td>> 740000s</td>              <td>90s</td>            <td>7s</td></tr>
 </table>
 
 </div>
-
 

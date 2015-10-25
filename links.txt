@@ -43,5 +43,9 @@ Bezanson, Alan Edelman, Stefan Karpinski, Viral B. Shah</li>
 
 <li><a href="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA313755">A simplified fraction-free integer Gauss elimination algorithm</a>, Peter Turner</li>
 
+<li><a href="http://www.mcs.csueastbay.edu/~malek/Class/Characteristic.pdf">Linear Algebra: characteristic polynomial and minimum polynomial</a>, Massoud Malek</li>
+
+<li><a href="http://www.emis.de/journals/JIPAM/images/271_06_JIPAM/271_06.pdf">Bounds on the coefficients of the characteristic and minimal polynomials</a>, Jean-Guillaume Dumas</li>
+
 </ul> 
 
