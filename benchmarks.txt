@@ -201,3 +201,23 @@ coefficient blowup.</p>
 
 </div>
 
+<h3>Characteristic polynomial of a matrix over the integers</h3>
+
+<ul>
+<li>M is an 80x80 matrix with random entries in ZZ in the range [-20, 20]</li>
+<li>time d = charpoly(M)</li>
+</ul>
+
+<p>This benchmark doesn't really test Nemo but the underlying Flint library.
+However, the benchmark resulted from work done in Nemo that got moved into
+Flint. Julia code can be quite easy to port to C in certain circumstances.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.9</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>0.20s</td>              <td>0.58s</td>              <td>0.06s</td>            <td>0.04s</td></tr>
+</table>
+
+</div>
+
