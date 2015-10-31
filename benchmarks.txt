@@ -196,7 +196,7 @@ coefficient blowup.</p>
 
 <table class="benchmark">
 <tr><th>SageMath 6.8</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>> 100000s</td>              <td>> 740000s</td>              <td>90s</td>            <td>7s</td></tr>
+<tr><td>> 100000s</td>              <td>> 1200000s</td>              <td>90s</td>            <td>7s</td></tr>
 </table>
 
 </div>
@@ -217,6 +217,28 @@ Flint. Julia code can be quite easy to port to C in certain circumstances.</p>
 <table class="benchmark">
 <tr><th>SageMath 6.9</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
 <tr><td>0.20s</td>              <td>0.58s</td>              <td>0.06s</td>            <td>0.04s</td></tr>
+</table>
+
+</div>
+
+<h3>Minimal polynomial of a matrix over a gcd domain</h3>
+
+<ul>
+<li>Let M be a 20x20 matrix with random entries in ZZ[x] of degree 2 with coefficients in the range [-20, 20], but such that the upper right and lower left quarters of the matrix are zero and the lower right quarter is identical to the upper left quarter</li>
+<li>Let P(r, d) denote a 20x20 identity matrix the zero entries of whose r-th row have been replaced with the value d</li>
+<li>Apply ten random similarity transforms M = P^{-1}MP to M where each P is a matrix of the form P(r, d) for r in the range [1, 20] and d in the range [-3:3]</li>
+<li>time d = minpoly(M)</li>
+</ul>
+
+<p>This benchmark tests minimal polynomial over a gcd domain (i.e. not over a field).</p>
+
+<p>Magma refuses to do this computation and Sage throws an exception.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.9</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>--</td>              <td>> 42000s</td>              <td>--</td>            <td>0.6s</td></tr>
 </table>
 
 </div>
