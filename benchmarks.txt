@@ -238,7 +238,7 @@ Flint. Julia code can be quite easy to port to C in certain circumstances.</p>
 
 <table class="benchmark">
 <tr><th>SageMath 6.9</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>--</td>              <td>> 150000s</td>              <td>--</td>            <td>0.6s</td></tr>
+<tr><td>--</td>              <td>> 360000s</td>              <td>--</td>            <td>0.6s</td></tr>
 </table>
 
 </div>
@@ -262,6 +262,26 @@ Flint. Julia code can be quite easy to port to C in certain circumstances.</p>
 <table class="benchmark">
 <tr><th>SageMath 6.9</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
 <tr><td>10.6s</td>              <td>2515s</td>              <td>0.005s</td>            <td>0.4s</td></tr>
+</table>
+
+</div>
+
+<h3>Minimal polynomial of a matrix over the integers</h3>
+
+<ul>
+<li>Let M be a 80x80 matrix with random entries in ZZ in the range [-20, 20], but such that the upper right and lower left quarters of the matrix are zero and the lower right quarter is identical to the upper left quarter</li>
+<li>Let P(r, d) denote an 80x80 identity matrix the zero entries of whose r-th row have been replaced with the value d</li>
+<li>Apply ten random similarity transforms M = P^{-1}MP to M where each P is a matrix of the form P(r, d) for r in the range [1, 80] and d in the range [-3:3]</li>
+<li>time d = minpoly(M)</li>
+</ul>
+
+<p>This benchmark doesn't really test Nemo, but Flint. However the implementation was a result of work carried out first in Nemo and then ported to Flint.</p>
+
+<div align="center">
+
+<table class="benchmark">
+<tr><th>SageMath 6.9</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
+<tr><td>0.07s</td>              <td>> 270000s</td>              <td>0.05s</td>            <td>0.04s</td></tr>
 </table>
 
 </div>
