@@ -30,11 +30,25 @@ number of users. Some of these could make good student projects (or in some case
 <li>Implement multivariate rational functions</li>
 <li>Implement generic Puiseux series with automatic inflation/deflation</li>
 <li>Add the capped absolute model of power series</li>
-<li>Wrap the <a href="http://fredrikj.net/arb/">Arb</a> library (it is already built as part of
-the Nemo build process)</li>
-<li>Implement generic Hermite Normal Form</li>
+<li>Wrap the <a href="http://fredrikj.net/arb/">Arb</a> library (it is already built as part of the Nemo build process)</li>
+<li>Implement generic Hermite Normal Form and Popov form</li>
 <li>Interface with Gap or wrap libgap</li>
 <li>Implement symbolic expressions</li>
+<li>Implement generic sparse polynomials</li>
+<li>Make generic capped relative power series use unit/valuation representation</li>
+<li>Implement sparse matrix algorithms</li>
+<li>Implement fast representation for small finite fields (possibly in Flint)</li>
+<li>Wrap Singular for Groebner basis, ideal and integral kernel operations</li>
+<li>Implement factoring of multivariate polynomials</li>
+<li>Implement charpoly and minpoly for number fields (possibly in Antic)</li>
+<li>Implement modular gcd algorithm for multivariate polynomials over the integers</li>
+<li>Implement modular algorithms for number fields (possibly in Antic)</li>
+<li>Implement generic Jordan canonical form and rational canonical form</li>
+<li>Fast p-adic nullspace kernel vector lifting (possibly in Flint)</li>
+<li>Implement generic Smith normal form over a PID</li>
+<li>Implement generic QR factorisation</li>
+<li>BKZ reduction (possibly in Flint)</li>
+<li>Implement Howell normal form</li>
 </ul>
 
 <p>
