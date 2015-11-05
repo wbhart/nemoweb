@@ -49,6 +49,9 @@ number of users. Some of these could make good student projects (or in some case
 <li>Implement generic QR factorisation</li>
 <li>BKZ reduction (possibly in Flint)</li>
 <li>Implement Howell normal form</li>
+<li>Wrap Flint Zech logarithm modules</li>
+<li>Wrap Flint modules for matrices over finite fields and QQ</li>
+<li>Faster immutable type for Z/nZ for small n</li>
 </ul>
 
 <p>
