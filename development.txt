@@ -54,6 +54,7 @@ number of users. Some of these could make good student projects (or in some case
 <li>Faster immutable type for Z/nZ for small n</li>
 <li>Implement Frobenius normal form</li>
 <li>Implement fallback generic Sylvester matrix resultant</li>
+<li>Implement generic O(n^3) minpoly.</li>
 </ul>
 
 <p>
