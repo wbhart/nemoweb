@@ -47,5 +47,17 @@ Bezanson, Alan Edelman, Stefan Karpinski, Viral B. Shah</li>
 
 <li><a href="http://www.emis.de/journals/JIPAM/images/271_06_JIPAM/271_06.pdf">Bounds on the coefficients of the characteristic and minimal polynomials</a>, Jean-Guillaume Dumas</li>
 
+<li><a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/minpolyandappns.pdf">The minimal polynomial and some applications</a>, Keith Conrad</li>
+
+<li><a href="http://www.sciencedirect.com/science/article/pii/S074771719690142X">A new algorithm for the computation of canonical forms of matrices over fields</a>, Allan Steel</li>
+
+<li><a href="https://hal.inria.fr/inria-00074666/document">The minimal polynomials, characteristic subspaces, normal bases and the Frobenius form</a>, Paul Camion, Daniel Augot</li>
+
+<li><a href="http://www.cecm.sfu.ca/CAG/papers/CPpaper.pdf">A modular algorithm for computing the characteristic polynomial of an integer matrix in Maple</a>, Simon Lo, Michael Monaghan, Allan Wittkopf</li>
+
+<li><a href="http://www-circa.mcs.st-and.ac.uk/Preprints/minpoly.pdf">Computing minimal polynomials of matrices</a>, Max Neunhoffer, Cheryl Praeger</li>
+
+<li><a href="http://lig-membres.imag.fr/pernet/Publications/issac07_pernet.pdf">Faster algorithms for the characteristic polynomial</a>, Clement Pernet, Arne Storjohann</li>
+
 </ul> 
 
