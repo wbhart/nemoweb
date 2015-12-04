@@ -1,5 +1,7 @@
 <h2>News</h2>
 
+<p>2015-12-04: Nemo-0.4 is released. This extends the generic matrix algorithms implemented in Nemo, plus adds a range of minor fixes and functionality.</p>
+
 <p>2015-10-10: <a href="https://cloud.sagemath.org/">SageMathCloud</a> supports Nemo in Jupyter notebooks using the Julia kernel. Thanks to William Stein!</p>
 
 <p>2015-09-26: Nemo-0.3.1 is released. This fixes some build issues on OSX and fixes some bugs on 32 bit machines.</p>

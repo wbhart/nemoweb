@@ -232,13 +232,13 @@ Flint. Julia code can be quite easy to port to C in certain circumstances.</p>
 
 <p>This benchmark tests minimal polynomial over a gcd domain (i.e. not over a field).</p>
 
-<p>Magma refuses to do this computation and Sage throws an exception.</p>
+<p>Magma refuses to do this computation and Sage throws an exception. Pari/GP was terminated due to long running.</p>
 
 <div align="center">
 
 <table class="benchmark">
 <tr><th>SageMath 6.9</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>--</td>              <td>> 360000s</td>              <td>--</td>            <td>0.6s</td></tr>
+<tr><td>--</td>              <td>> 680000s</td>              <td>--</td>            <td>0.6s</td></tr>
 </table>
 
 </div>
@@ -277,11 +277,13 @@ Flint. Julia code can be quite easy to port to C in certain circumstances.</p>
 
 <p>This benchmark doesn't really test Nemo, but Flint. However the implementation was a result of work carried out first in Nemo and then ported to Flint.</p>
 
+<p>Pari/GP eventually exhausted the memory on the machine and did not complete.</p>
+
 <div align="center">
 
 <table class="benchmark">
 <tr><th>SageMath 6.9</th> <th>Pari/GP 2.7.4</th>      <th>Magma V2.21-4</th>     <th>Nemo-0.3</th></tr>
-<tr><td>0.07s</td>              <td>> 270000s</td>              <td>0.05s</td>            <td>0.04s</td></tr>
+<tr><td>0.07s</td>              <td>> 600000s</td>              <td>0.05s</td>            <td>0.04s</td></tr>
 </table>
 
 </div>
