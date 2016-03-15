@@ -4,12 +4,14 @@
 
 <p>You can get a clone of the git development repo with:</p> 
 
-<pre>git clone git://github.com/wbhart/nemo.jl.git</pre> 
+<pre>git clone https://github.com/Nemocas/Nemo.jl.git</pre> 
  
 <p>If you want to browse the repository online, or fork it on GitHub, it can be accessed here:</p> 
-<a href="https://github.com/wbhart/nemo">https://github.com/wbhart/nemo</a> 
+<a href="https://github.com/Nemocas/Nemo.jl">https://github.com/Nemocas/Nemo.jl</a> 
  
 <p>The current development branch within the repository is "master".</p> 
+
+<p>Nemocas is a community organization on GitHub managed by four individuals who can accept pull requests. To contribute to Nemo, simply issue a pull request against the GitHub repository above or open an issue on the GitHub issue tracker.</p>
 
 <h3>Mailing list</h3>
 
