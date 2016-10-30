@@ -21,6 +21,7 @@ and wrappers of C/C++ libraries. Below we describe some of the features.</p>
 <li>fmpq - Rationals</li>
 <li>padic - Padics</li>
 <li>fmpz_mat - matrices over the integers</li>
+<li>fmpq_mat - matrices over the rationals</li>
 <li>nmod_mat - matrices over Z/nZ for small n</li>
 <li>fmpz_poly - polynomials over the integers</li>
 <li>fmpq_poly - polynomials over the rationals</li>
@@ -53,6 +54,10 @@ and wrappers of C/C++ libraries. Below we describe some of the features.</p>
 <ul>
 <li>arb - arbitrary precision real balls</li>
 <li>acb - arbitrary precision complex balls</li>
+<li>arb_poly - polynomials over arbitrary precision real balls</li>
+<li>acb_poly - polynomials over arbitrary precision complex balls</li>
+<li>arb_mat - matrices over arbitrary precision real balls</li>
+<li>acb_mat - matrices over arbitrary precision complex balls</li>
 </ul>
 
 <h3>Libraries that use Nemo</h3>
